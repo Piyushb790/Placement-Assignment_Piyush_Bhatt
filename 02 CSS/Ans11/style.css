@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+body{
+    box-sizing: border-box;
+
+
+  
+}
+.main{
+overflow-x: hidden;
+}
+.header{
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.inp{
+    width: 60vw;
+    padding: 15px;
+}
+.logoImg{
+    width: 150px;
+}
+.btn2{
+    background-color: #233c7b;
+}
+.btn1{
+    background-color: transparent;
+    border: none;
+    color: #233c7b;
+}
+
+.links{
+    color: #233c7b;
+    font-weight: 600;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 100px;
+}
+.banner1{
+    width: 100vw;
+}
+.container2{
+    margin: 80px 0;
+    text-align: center;
+}
+.container2 h1{
+    font-size: 60px;
+
+}
+.subcontainer2{
+    margin: 100px 0;
+    text-align: center;
+    display: flex;
+    font-size: 22px;
+    justify-content: space-around;
+
+
+}
+
+.subcontainerimg img{
+    height: 170px;
+    
+}
+.subcontainerimg h2{
+    font-weight: bold;
+}
+.achievers{
+    margin: 70px 0;
+    height: 400px;
+    background-color:#eef0f5 ;
+    text-align: center;
+}
+.achievers h1{
+    padding: 70px 0;
+    font-size: 60px;
+    color: #233c7b;
+    font-weight: bold;
+}
+.headingHall{
+    text-align: center;
+    margin: 100px 0;
+    font-size: 60px;
+    color: #233c7b;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card{
+    text-align: center;
+    margin-bottom: 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-radius: 25px;
+    line-height: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.hallimg{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.tag{
+    color: gray;
+    margin: 10px 0;
+}
+.name{
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.LiveProgram{
+    
+    margin: 50px 0;
+}
+.liveheading{
+    text-align: center;
+    margin: 35px 0;
+    font-size: 60px;
+    color: #233c7b;
+}
+.liveheading2{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.card2{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.subcard{
+    padding: 30px;
+    border-radius: 25px;
+    width: 427px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.subcard h1{
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price h2{
+    background-color: #aeaeff;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: medium;
+}
+.subcard2{
+    padding: 30px;
+    border-radius: 25px;
+    width: 307px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.subcard2 h1{
+    margin: 15px 0;
+    font-size: 16px;
+}
+.Test{
+    margin: 100px 0;
+}
+.hackathon{
+    text-align: center;
+    font-weight: bold;
+    color: #233c7b;
+  
+    font-size: 24px;
+}
+.hackathon h1{
+    margin-top: 170px;
+    margin-bottom: 70px;
+}
+.product{
+    font-size: medium;
+    line-height: 20px;
+    width: 420px;
+
+}
+.productheading{
+    font-size: large;
+    margin: 10px 0;
+    color: #233c7b;
+}
+.products{
+
+    margin: 100px 0;
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+
+}
+.productmainheading{
+    color: #233c7b;
+}
+.footer{
+    background-color: #233c7b;
+    color: #fff;
+    padding: 100px 0;
+}
+.footercontent{
+    display: flex;
+    justify-content: space-around;
+    line-height: 25px;
+    list-style-type: none;
+    align-items: start;
+    
+}
+.address{
+    width: 450px;
+    margin: 10px;
+}
+hr{
+    margin: 25px 0;
+    height: 2px;
+    border: none;
+    background-color: orange;
+}
+.iso{
+    margin-top: 20px;
+}
+
+@media (max-width: 500px ){
+    .header{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .links{
+        flex-direction: column;
+        text-align: center;
+    }
+    .subcontainer2{
+        flex-direction: column;
+    }
+    .ach{
+        width: 70px;
+    }
+    .cards{
+        flex-direction: column;
+        width: 300px;
+        margin-left: 35px;
+    }
+    .card2{
+        flex-direction: column;
+    }
+    .subcard{
+        width: 300px;
+        
+        margin: 10px 35px;
+    }
+    .subcard2{
+        margin: 10px 35px;
+    }
+    .hackathonimg{
+        width: 300px;
+    }
+    .hackathoncom{
+        width: 100px;
+    }
+    .footercontent{
+        flex-direction: column;
+        margin: 10px 35px;
+        gap: 30px;
+      
+    }
+    hr{
+        width: 170px;
+    }
+    .addresstext{
+        width: 300px;
+    }
+}
