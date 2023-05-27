@@ -1,0 +1,65 @@
+#periodic{
+    width: 54vw;
+    height: 60vw;
+    border: 1px solid black;
+}
+li{
+    list-style-type: none;
+    margin: 2px;
+    font-weight: bold;
+}
+.serialno{
+ list-style-type: none;   
+ display: flex;
+ 
+}
+.firstrow{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.red{
+    background: #e46464;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.yellow{
+    background: #dfd27e;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.blue{
+    background: #5183df;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.green{
+    background: #64ec9d;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.secondrow{
+    display: flex;
+    justify-content: space-between;
+}
+.second{
+    display: flex;
+}
+.break{
+    display: block;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
